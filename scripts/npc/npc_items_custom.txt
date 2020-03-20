@@ -3155,12 +3155,12 @@
             "01"
             {
                 "var_type"				"FIELD_INTEGER"
-                "bonus_damage"			"100"
+                "bonus_damage"			"145"
             }
             "02"
             {
                 "var_type"				"FIELD_INTEGER"
-                "corruption_armor"		"-12"
+                "corruption_armor"		"-15"
             }
             "03"
             {
@@ -3669,7 +3669,7 @@
         "ItemResult"					"item_desolator_2_datadriven"
         "ItemRequirements"
         {
-            "01"						"item_desolator;item_demon_edge;item_blight_stone"
+            "01"						"item_desolator;item_demon_edge;item_demon_edge;item_blight_stone"
         }
     }
 	//=================================================================================================================
@@ -4352,7 +4352,7 @@
         "ItemResult"					"item_ultimate_scepter_2"
         "ItemRequirements"
         {
-            "01"						"item_ultimate_scepter;item_ultimate_orb;item_ultimate_orb"
+            "01"						"item_ultimate_scepter;item_kaya;item_ultimate_orb;item_ultimate_orb"
         }
     }
 
@@ -4369,7 +4369,7 @@
         "AbilityTextureName"			"item_ultimate_scepter_2"
 
         "AbilityCastPoint"              "0.0"
-        "AbilityCooldown"               "80"
+        "AbilityCooldown"               "75"
         "AbilityManaCost"               "150"
 
 
@@ -4389,7 +4389,7 @@
             "01"
             {
                 "var_type"				"FIELD_INTEGER"
-                "bonus_all_stats"		"30"
+                "bonus_all_stats"		"35"
             }
             "02"
             {
@@ -4409,8 +4409,18 @@
             "05"
             {
                 "var_type"              "FIELD_FLOAT"
-                "spell_boost_duration"      "6.0"
+                "spell_boost_duration"      "8.0"
             }
+            "06"
+                        {
+                            "var_type"				"FIELD_INTEGER"
+                            "spell_amp"				"18"
+                        }
+                        "07"
+                        {
+                            "var_type"				"FIELD_FLOAT"
+                            "manacost_reduction"				"18"
+                        }
         }
 
         "OnSpellStart"
@@ -4442,6 +4452,8 @@
                     "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"            "%bonus_all_stats"
                     "MODIFIER_PROPERTY_HEALTH_BONUS"              "%bonus_health"
                     "MODIFIER_PROPERTY_MANA_BONUS"                "%bonus_mana"
+                    "MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"            "%spell_amp"
+                    "MODIFIER_PROPERTY_MANACOST_PERCENTAGE"                 "%manacost_reduction"
                 }
 
                 "OnCreated"
@@ -4627,14 +4639,18 @@
             "07"
             {
                 "var_type"              "FIELD_INTEGER"
-                "status_resistance"         "14"
+                "status_resistance"         "20"
             }
             "08"
             {
                 "var_type"				"FIELD_INTEGER"
                 "radius"				"225"
             }
-
+            "09"
+            {
+              "var_type"				"FIELD_INTEGER"
+              "hp_regen_amp"			"30"
+            }
 		}
 
         "OnSpellStart"
@@ -4660,6 +4676,7 @@
                     "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"			"%bonus_strength"
                     "MODIFIER_PROPERTY_EVASION_CONSTANT"				"%bonus_evasion"
                     "MODIFIER_PROPERTY_STATUS_RESISTANCE"               "%status_resistance"
+                    "MODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE"		"%hp_regen_amp"
                 }
             }
         }
@@ -5325,7 +5342,7 @@
         "ItemResult"					"item_wasp"
         "ItemRequirements"
         {
-            "01"						"item_butterfly;item_lesser_crit"
+            "01"						"item_butterfly;item_eagle;item_greater_crit"
         }
     }
     "item_wasp"
@@ -5360,22 +5377,22 @@
             "01"
             {
                 "var_type"						"FIELD_INTEGER"
-                "bonus_agility"					"35"
+                "bonus_agility"					"65"
             }
             "02"
             {
                 "var_type"						"FIELD_INTEGER"
-                "bonus_damage"					"63"
+                "bonus_damage"					"123"
             }
             "03"
             {
                 "var_type"						"FIELD_INTEGER"
-                "bonus_evasion"					"35"
+                "bonus_evasion"					"40"
             }
             "04"
             {
                 "var_type"						"FIELD_INTEGER"
-                "bonus_attack_speed"			"30"
+                "bonus_attack_speed"			"45"
             }
             "05"
             {
@@ -5390,12 +5407,12 @@
             "07"
             {
                 "var_type"				"FIELD_INTEGER"
-                "crit_chance"			"20"
+                "crit_chance"			"35"
             }
             "08"
             {
                 "var_type"				"FIELD_INTEGER"
-                "crit_multiplier"		"175"
+                "crit_multiplier"		"250"
             }
         }
 
@@ -7442,6 +7459,11 @@
                 "var_type"              "FIELD_INTEGER"
                 "radius"                "225"
             }
+            "08"
+            {
+                "var_type"				"FIELD_INTEGER"
+                "hp_regen_amp"			"40"
+            }
         }
 
         "OnSpellStart"
@@ -7467,6 +7489,7 @@
                     "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"            "%bonus_strength"
                     "MODIFIER_PROPERTY_EVASION_CONSTANT"                "%bonus_evasion"
                     "MODIFIER_PROPERTY_STATUS_RESISTANCE"               "%status_resistance"
+                    "MODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE"		"%hp_regen_amp"
                 }
             }
         }
@@ -7760,7 +7783,7 @@
             "02"
             {
                 "var_type"                  "FIELD_INTEGER"
-                "bonus_attack_speed"        "40"
+                "bonus_attack_speed"        "50"
             }
             "03"
             {
