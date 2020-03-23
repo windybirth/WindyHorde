@@ -508,7 +508,7 @@
 		"ItemResult"					"item_bfury_datadriven"
 		"ItemRequirements"
 		{
-			"01"						"item_bfury;item_claymore"
+			"01"						"item_bfury;item_pers;item_demon_edge"
 		}
 	}
 	"item_bfury_datadriven"
@@ -540,67 +540,52 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"66"
+				"bonus_damage"			"108"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health_regen"	"8"
+				"bonus_health_regen"	"15"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_mana_regen"		"2.5"
+				"bonus_mana_regen"		"8"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cleave_damage_percent"	"66"
+				"cleave_damage_percent"	"70"
 			}
-			"05"
+      "05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cleave_damage_percent_creep"	"60"
+			}
+      "06"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"quelling_bonus"			"160"
 			}
-			"06"
+			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"quelling_bonus_ranged"	"125"
 			}
-			"07"
-            {
-                "var_type"				"FIELD_INTEGER"
-                "cleave_starting_width"			"150"
-            }
-            "08"
-            {
-                "var_type"				"FIELD_INTEGER"
-                "cleave_ending_width"			"360"
-            }
-            "09"
-            {
-                "var_type"				"FIELD_INTEGER"
-                "cleave_distance"			"650"
-            }
-            "10"
-            {
-                "var_type"				"FIELD_INTEGER"
-                "cast_range_tooltip"			"350"
-            }
-            "11"
-            {
-                "var_type"				"FIELD_INTEGER"
-                "cast_range_ward"			"450"
-            }
-			"12"
+      "08"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tooltip_quelling_bonus"	"60"
+				"cleave_starting_width"			"180"
 			}
-			"13"
+			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tooltip_quelling_bonus_ranged"	"25"
+				"cleave_ending_width"			"480"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cleave_distance"			"850"
 			}
 		}
 	}

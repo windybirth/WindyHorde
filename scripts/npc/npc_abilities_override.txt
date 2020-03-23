@@ -3401,7 +3401,7 @@
 
 
 	//*********************Items************************
-
+  // 物价调整
 	//=================================================================================================================
 	// Courier
 	//=================================================================================================================
@@ -3528,6 +3528,26 @@
     "ItemCost"                   "20"
   }
 	//=================================================================================================================
+	// Hand of Midas 点金手
+	//=================================================================================================================
+	"item_recipe_hand_of_midas"
+  {
+    "ItemCost"                   "850"
+  }
+	"item_hand_of_midas"
+	{
+		"AbilityCooldown"				"60.0"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_gold"			"120"
+			}
+		}
+	}
+
+	//=================================================================================================================
   // 圣者遗物
   //=================================================================================================================
   "item_relic"
@@ -3610,7 +3630,137 @@
 	{
 		"ItemCost"                   "2650"
 	}
+	//=================================================================================================================
+	// 电锤
+	//=================================================================================================================
 
+	"item_recipe_maelstrom"
+	{
+		"ItemCost"						"900"
+	}
+	"item_maelstrom"
+	{
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"160"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.25"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_cooldown"		"0.15"
+			}
+		}
+	}
+	"item_recipe_mjollnir"
+	{
+		"ItemCost"						"1800"
+  }
+	"item_mjollnir"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"65"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"25.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"20"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"6"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"280"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_primary_radius"	"600"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_seconary_radius"	"900"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"900"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"0.8"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"25"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"210"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"18"
+			}
+			"14"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"15"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.25"
+			}
+			"16"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_cooldown"		"0.1"
+			}
+		}
+	}
 	//********Neutral Items（中立物品）********
   //=================================================================================================================
   // Royal Jelly
