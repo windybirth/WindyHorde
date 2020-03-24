@@ -12,7 +12,6 @@
         "item"		"item_cheese"
         "item"		"item_refresher_shard"
         "item"		"item_tome_of_knowledge"
-        "item"		"item_courier"
         "item"		"item_bottle"
         "item"		"item_infused_raindrop"
         "item"		"item_hoard_magic_stick"

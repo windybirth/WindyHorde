@@ -4957,7 +4957,7 @@
 
         // Item Info
         //-------------------------------------------------------------------------------------------------------------
-        "ItemCost"						"1800"
+        "ItemCost"						"2600"
         "ItemShopTags"					""
 
         // Recipe
@@ -4998,27 +4998,27 @@
             "01"
             {
                 "var_type"				"FIELD_INTEGER"
-                "bonus_all_stats"		"2"
+                "bonus_all_stats"		"15"
             }
             "03"
             {
                 "var_type"				"FIELD_FLOAT"
-                "mana_regen_aura"		"1.75" // This field has no force aside from description filling. Real value is set in the aura part
+                "mana_regen_aura"		"5" // This field has no force aside from description filling. Real value is set in the aura part
             }
             "04"
             {
                 "var_type"				"FIELD_INTEGER"
-                "bonus_armor"			"10"
+                "bonus_armor"			"20"
             }
             "05"
             {
                 "var_type"				"FIELD_INTEGER"
-                "damage_aura"			"15"
+                "damage_aura"			"18"
             }
             "06"
             {
                 "var_type"				"FIELD_INTEGER"
-                "vampiric_aura"			"15"
+                "vampiric_aura"			"30"
             }
             "07"
             {
@@ -5028,22 +5028,22 @@
             "08"
             {
                 "var_type"				"FIELD_INTEGER"
-                "bonus_attack_speed"	"30"
+                "bonus_attack_speed"	"40"
             }
             "09"
             {
                 "var_type"				"FIELD_INTEGER"
-                "aura_positive_armor"			"9"
+                "aura_positive_armor"			"20"
             }
             "10"
             {
                 "var_type"				"FIELD_INTEGER"
-                "aura_attack_speed"		"25"
+                "aura_attack_speed"		"40"
             }
             "11"
             {
                 "var_type"				"FIELD_INTEGER"
-                "aura_negative_armor"	"-5"
+                "aura_negative_armor"	"-15"
             }
         }
 
