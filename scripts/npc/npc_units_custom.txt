@@ -1,7 +1,7 @@
 "DOTAUnits"
 {
 //=================================================================================
-// Neutral: Kobold
+// Neutral Units : Kobold
 //=================================================================================
 	"npc_dota_neutral_kobold"
 	{										
@@ -11,7 +11,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"1"
-		"ModelScale" 					".9"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -23,14 +23,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"0"			// Physical protection.
+		"ArmorPhysical"				"1"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"10"		// Damage range min.
-		"AttackDamageMax"			"11"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"20"		// Damage range min.
+		"AttackDamageMax"			"25"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.38"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -40,23 +40,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"40"
-		"HealthBarOffset"			"130"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"19"		// Experience earn.
-		"BountyGoldMin"				"6"			// Gold earned min.
-		"BountyGoldMax"				"8"			// Gold earned max.
+		"BountyXP"					"40"		// Experience earn.
+		"BountyGoldMin"				"18"			// Gold earned min.
+		"BountyGoldMax"				"20"			// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"		// Speed.
+		"MovementSpeed"				"290"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"240"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"500"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
 		
@@ -84,7 +84,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"1"
-		"ModelScale" 					".9"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -101,9 +101,9 @@
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"14"		// Damage range min.
-		"AttackDamageMax"			"15"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"30"		// Damage range min.
+		"AttackDamageMax"			"30"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.38"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -113,23 +113,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"40"
-		"HealthBarOffset"			"150"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"19"		// Experience earn.
-		"BountyGoldMin"				"14"		// Gold earned min.
-		"BountyGoldMax"				"18"		// Gold earned max.
+		"BountyXP"					"40"		// Experience earn.
+		"BountyGoldMin"				"30"		// Gold earned min.
+		"BountyGoldMax"				"40"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"		// Speed.
+		"MovementSpeed"				"290"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"325"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"700"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
 		
@@ -157,7 +157,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"2"
-		"ModelScale" 					"1"
+		"ModelScale" 					"1.2"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -169,14 +169,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"14"		// Damage range min.
-		"AttackDamageMax"			"15"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"30"		// Damage range min.
+		"AttackDamageMax"			"30"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.38"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"110"		// Range within a target can be attacked.
@@ -186,23 +186,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"50"
-		"HealthBarOffset"			"180"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"31"		// Experience earn.
-		"BountyGoldMin"				"20"		// Gold earned min.
-		"BountyGoldMax"				"25"		// Gold earned max.
+		"BountyXP"					"60"		// Experience earn.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"330"		// Speed.
+		"MovementSpeed"				"350"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"400"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"800"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
 		
@@ -230,7 +230,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"2"
-		"ModelScale" 					".80"
+		"ModelScale" 					"1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -242,14 +242,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"18"		// Damage range min.
-		"AttackDamageMax"			"21"		// Damage range max.	
-		"AttackRate"				"1.3"		// Speed of attack.
+		"AttackDamageMin"			"40"		// Damage range min.
+		"AttackDamageMax"			"42"		// Damage range max.	
+		"AttackRate"				"1.2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -259,23 +259,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"170"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"31"		// Experience earn.
-		"BountyGoldMin"				"16"		// Gold earned min.
-		"BountyGoldMax"				"19"		// Gold earned max.
+		"BountyXP"					"61"		// Experience earn.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"40"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"		// Speed.
+		"MovementSpeed"				"340"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"350"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"700"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
 		
@@ -315,14 +315,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"4"			// Physical protection.
+		"ArmorPhysical"				"8"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"49"		// Damage range min.
-		"AttackDamageMax"			"55"		// Damage range max.	
-		"AttackRate"				"1.5"		// Speed of attack.
+		"AttackDamageMin"			"100"		// Damage range min.
+		"AttackDamageMax"			"110"		// Damage range max.	
+		"AttackRate"				"1.4"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -332,25 +332,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"80"
-		"HealthBarOffset"			"220"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"90"		// Experience earn.
-		"BountyGoldMin"				"53"		// Gold earned min.
-		"BountyGoldMax"				"62"		// Gold earned max.
+		"BountyXP"					"180"		// Experience earn.
+		"BountyGoldMin"				"110"		// Gold earned min.
+		"BountyGoldMax"				"125"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"		// Speed.
+		"MovementSpeed"				"340"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"1100"		// Base health.
-		"StatusHealthRegen"			"1"			// Health regeneration rate.
-		"StatusMana"				"200"		// Base mana.
-		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"2200"		// Base health.
+		"StatusHealthRegen"			"2"			// Health regeneration rate.
+		"StatusMana"				"400"		// Base mana.
+		"StatusManaRegen"			"2.0"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -376,7 +376,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"2"
-		"ModelScale" 					".90"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -388,14 +388,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"14"		// Damage range min.
-		"AttackDamageMax"			"15"		// Damage range max.	
-		"AttackRate"				"1.5"		// Speed of attack.
+		"AttackDamageMin"			"30"		// Damage range min.
+		"AttackDamageMax"			"30"		// Damage range max.	
+		"AttackRate"				"1.4"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -405,23 +405,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"35"
-		"HealthBarOffset"			"175"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"31"		// Experience earn.
-		"BountyGoldMin"				"17"		// Gold earned min.
-		"BountyGoldMax"				"20"		// Gold earned max.
+		"BountyXP"					"60"		// Experience earn.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"40"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"350"		// Speed.
+		"MovementSpeed"				"370"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"400"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"800"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
 		
@@ -449,7 +449,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"4"
-		"ModelScale" 					".80"
+		"ModelScale" 					"1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -461,14 +461,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"3"			// Physical protection.
+		"ArmorPhysical"				"6"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"39"		// Damage range min.
-		"AttackDamageMax"			"44"		// Damage range max.	
-		"AttackRate"				"1.5"		// Speed of attack.
+		"AttackDamageMin"			"80"		// Damage range min.
+		"AttackDamageMax"			"88"		// Damage range max.	
+		"AttackRate"				"1.4"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -478,23 +478,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"50"
-		"HealthBarOffset"			"180"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"66"		// Experience earn.
-		"BountyGoldMin"				"36"		// Gold earned min.
-		"BountyGoldMax"				"44"		// Gold earned max.
+		"BountyXP"					"120"		// Experience earn.
+		"BountyGoldMin"				"80"		// Gold earned min.
+		"BountyGoldMax"				"88"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"		// Speed.
+		"MovementSpeed"				"340"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"700"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"1400"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
 		
@@ -522,7 +522,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"5"
-		"ModelScale" 					".95"
+		"ModelScale" 					"1.15"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -534,14 +534,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"4"			// Physical protection.
+		"ArmorPhysical"				"8"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"49"		// Damage range min.
-		"AttackDamageMax"			"55"		// Damage range max.	
-		"AttackRate"				"1.55"		// Speed of attack.
+		"AttackDamageMin"			"100"		// Damage range min.
+		"AttackDamageMax"			"110"		// Damage range max.	
+		"AttackRate"				"1.45"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -551,25 +551,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"70"
-		"HealthBarOffset"			"215"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"90"		// Experience earn.
-		"BountyGoldMin"				"61"		// Gold earned min.
-		"BountyGoldMax"				"70"		// Gold earned max.
+		"BountyXP"					"180"		// Experience earn.
+		"BountyGoldMin"				"121"		// Gold earned min.
+		"BountyGoldMax"				"140"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"		// Speed.
+		"MovementSpeed"				"340"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"950"		// Base health.
-		"StatusHealthRegen"			"1"			// Health regeneration rate.
-		"StatusMana"				"300"		// Base mana.
-		"StatusManaRegen"			"1.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"1900"		// Base health.
+		"StatusHealthRegen"			"2"			// Health regeneration rate.
+		"StatusMana"				"600"		// Base mana.
+		"StatusManaRegen"			"2.0"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -595,7 +595,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"4"
-		"ModelScale" 					"1.1"
+		"ModelScale" 					"1.3"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -613,9 +613,9 @@
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"29"		// Damage range min.
-		"AttackDamageMax"			"33"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"60"		// Damage range min.
+		"AttackDamageMax"			"65"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -625,25 +625,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"190"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"32"		// Experience earn.
-		"BountyGoldMin"				"24"		// Gold earned min.
-		"BountyGoldMax"				"27"		// Gold earned max.
+		"BountyXP"					"60"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"55"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"310"		// Speed.
+		"MovementSpeed"				"330"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"800"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"400"		// Base mana.
-		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		"StatusHealth"				"1600"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"800"		// Base mana.
+		"StatusManaRegen"			"2"			// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -669,7 +669,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"4"
-		"ModelScale" 					"0.7"
+		"ModelScale" 					"0.9"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -687,9 +687,9 @@
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"9"		// Damage range min.
-		"AttackDamageMax"			"10"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"20"		// Damage range min.
+		"AttackDamageMax"			"20"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -699,25 +699,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"190"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"17"		// Experience earn.
-		"BountyGoldMin"				"8"		// Gold earned min.
-		"BountyGoldMax"				"13"		// Gold earned max.
+		"BountyXP"					"30"		// Experience earn.
+		"BountyGoldMin"				"20"		// Gold earned min.
+		"BountyGoldMax"				"30"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"310"		// Speed.
+		"MovementSpeed"				"330"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"240"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"400"		// Base mana.
-		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		"StatusHealth"				"500"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"800"		// Base mana.
+		"StatusManaRegen"			"2"			// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -743,7 +743,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"Hero_DoomBringer"													// Name of sound set.
 		"Level"						"4"
-		"ModelScale" 					"0.7"
+		"ModelScale" 					"0.9"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -761,9 +761,9 @@
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"9"		// Damage range min.
-		"AttackDamageMax"			"10"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"20"		// Damage range min.
+		"AttackDamageMax"			"20"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -773,24 +773,24 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"190"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"17"		// Experience earn.
-		"BountyGoldMin"				"8"		// Gold earned min.
-		"BountyGoldMax"				"13"		// Gold earned max.
+		"BountyXP"					"30"		// Experience earn.
+		"BountyGoldMin"				"20"		// Gold earned min.
+		"BountyGoldMax"				"30"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"310"		// Speed.
+		"MovementSpeed"				"330"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"240"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"400"		// Base mana.
+		"StatusHealth"				"500"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"800"		// Base mana.
 		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
 		
 		// Vision
@@ -817,7 +817,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"2"
-		"ModelScale" 					".90"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -829,14 +829,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"24"		// Damage range min.
-		"AttackDamageMax"			"27"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"45"		// Damage range min.
+		"AttackDamageMax"			"50"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -846,23 +846,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"190"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"31"		// Experience earn.
-		"BountyGoldMin"				"18"		// Gold earned min.
-		"BountyGoldMax"				"38"		// Gold earned max.
+		"BountyXP"					"60"		// Experience earn.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"80"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"		// Speed.
+		"MovementSpeed"				"290"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"850"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"1700"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
 		
@@ -890,7 +890,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"3"
-		"ModelScale" 					".90"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -907,9 +907,9 @@
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"24"		// Damage range min.
-		"AttackDamageMax"			"27"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"45"		// Damage range min.
+		"AttackDamageMax"			"50"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -919,25 +919,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"210"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"47"		// Experience earn.
-		"BountyGoldMin"				"28"		// Gold earned min.
-		"BountyGoldMax"				"36"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"60"		// Gold earned min.
+		"BountyGoldMax"				"72"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"		// Speed.
+		"MovementSpeed"				"290"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"600"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"400"		// Base mana.
-		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		"StatusHealth"				"1200"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"800"		// Base mana.
+		"StatusManaRegen"			"2"			// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -963,7 +963,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"3"
-		"ModelScale" 					".90"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -975,14 +975,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"29"		// Damage range min.
-		"AttackDamageMax"			"33"		// Damage range max.	
-		"AttackRate"				"1.45"		// Speed of attack.
+		"AttackDamageMin"			"60"		// Damage range min.
+		"AttackDamageMax"			"66"		// Damage range max.	
+		"AttackRate"				"1.35"		// Speed of attack.
 		"AttackAnimationPoint"		"0.33"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"90"		// Range within a target can be attacked.
@@ -992,23 +992,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"45"
-		"HealthBarOffset"			"130"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"47"		// Experience earn.
-		"BountyGoldMin"				"18"		// Gold earned min.
-		"BountyGoldMax"				"21"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"45"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"350"		// Speed.
+		"MovementSpeed"				"370"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"500"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"1000"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
 		
@@ -1036,7 +1036,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"4"
-		"ModelScale" 					".90"
+		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -1048,14 +1048,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"3"			// Physical protection.
+		"ArmorPhysical"				"6"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"33"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"60"		// Damage range min.
+		"AttackDamageMax"			"66"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.33"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"90"		// Range within a target can be attacked.
@@ -1065,23 +1065,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"70"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"66"		// Experience earn.
-		"BountyGoldMin"				"30"		// Gold earned min.
-		"BountyGoldMax"				"36"		// Gold earned max.
+		"BountyXP"					"126"		// Experience earn.
+		"BountyGoldMin"				"60"		// Gold earned min.
+		"BountyGoldMax"				"75"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"350"		// Speed.
+		"MovementSpeed"				"370"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"600"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"1200"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
 		
@@ -1109,7 +1109,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"1"
-		"ModelScale" 					".80"
+		"ModelScale" 					"1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -1121,14 +1121,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"2"			// Physical protection.
+		"ArmorPhysical"				"4"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"20"		// Damage range min.
-		"AttackDamageMax"			"25"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"40"		// Damage range min.
+		"AttackDamageMax"			"45"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"128"		// Range within a target can be attacked.
@@ -1138,23 +1138,23 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"50"
-		"HealthBarOffset"			"170"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"19"		// Experience earn.
-		"BountyGoldMin"				"12"		// Gold earned min.
-		"BountyGoldMax"				"16"		// Gold earned max.
+		"BountyXP"					"40"		// Experience earn.
+		"BountyGoldMin"				"30"		// Gold earned min.
+		"BountyGoldMax"				"35"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.
+		"MovementSpeed"				"320"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"350"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusHealth"				"700"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
 		
@@ -1182,7 +1182,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"5"
-		"ModelScale" 					"1.1"
+		"ModelScale" 					"1.3"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -1194,14 +1194,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"4"			// Physical protection.
+		"ArmorPhysical"				"8"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"50"		// Damage range min.
-		"AttackDamageMax"			"56"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"100"		// Damage range min.
+		"AttackDamageMax"			"110"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"128"		// Range within a target can be attacked.
@@ -1211,25 +1211,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"50"
-		"HealthBarOffset"			"220"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"90"		// Experience earn.
-		"BountyGoldMin"				"54"		// Gold earned min.
-		"BountyGoldMax"				"70"		// Gold earned max.
+		"BountyXP"					"180"		// Experience earn.
+		"BountyGoldMin"				"110"		// Gold earned min.
+		"BountyGoldMax"				"140"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"		// Speed.
+		"MovementSpeed"				"340"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"950"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"400"		// Base mana.
-		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		"StatusHealth"				"1900"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"800"		// Base mana.
+		"StatusManaRegen"			"2"			// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1255,7 +1255,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"4"
-		"ModelScale" 					".8"
+		"ModelScale" 					"1"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -1267,14 +1267,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"24"		// Damage range min.
-		"AttackDamageMax"			"27"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"45"		// Damage range min.
+		"AttackDamageMax"			"50"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"300"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -1284,25 +1284,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"50"
-		"HealthBarOffset"			"190"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"47"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"26"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"45"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"		// Speed.
+		"MovementSpeed"				"290"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"600"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"600"		// Base mana.
-		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		"StatusHealth"				"1200"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"1200"		// Base mana.
+		"StatusManaRegen"			"2"			// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1328,7 +1328,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"6"
-		"ModelScale" 					".95"
+		"ModelScale" 					"1.25"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -1340,14 +1340,14 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"0"			// Physical protection.
+		"ArmorPhysical"				"2"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"49"		// Damage range min.
-		"AttackDamageMax"			"55"		// Damage range max.	
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackDamageMin"			"100"		// Damage range min.
+		"AttackDamageMax"			"110"		// Damage range max.	
+		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"300"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -1357,25 +1357,25 @@
 		// Bounds
 		//----------------------------------------------------------------
 		"RingRadius"				"60"
-		"HealthBarOffset"			"210"
+		"HealthBarOffset"			"250"
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"90"		// Experience earn.
-		"BountyGoldMin"				"62"		// Gold earned min.
-		"BountyGoldMax"				"73"		// Gold earned max.
+		"BountyXP"					"180"		// Experience earn.
+		"BountyGoldMin"				"130"		// Gold earned min.
+		"BountyGoldMax"				"150"		// Gold earned max.
 
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"290"		// Speed.
+		"MovementSpeed"				"320"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"1100"		// Base health.
-		"StatusHealthRegen"			"1"			// Health regeneration rate.
-		"StatusMana"				"400"		// Base mana.
-		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		"StatusHealth"				"2200"		// Base health.
+		"StatusHealthRegen"			"2"			// Health regeneration rate.
+		"StatusMana"				"800"		// Base mana.
+		"StatusManaRegen"			"2"			// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
