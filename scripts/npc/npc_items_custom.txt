@@ -5014,7 +5014,7 @@
             "04"
             {
                 "var_type"				"FIELD_INTEGER"
-                "bonus_armor"			"20"
+                "bonus_armor"			"15"
             }
             "05"
             {
@@ -5024,7 +5024,7 @@
             "06"
             {
                 "var_type"				"FIELD_INTEGER"
-                "vampiric_aura"			"30"
+                "vampiric_aura"			"20"
             }
             "07"
             {
@@ -5039,7 +5039,7 @@
             "09"
             {
                 "var_type"				"FIELD_INTEGER"
-                "aura_positive_armor"			"20"
+                "aura_positive_armor"			"15"
             }
             "10"
             {
@@ -5049,7 +5049,7 @@
             "11"
             {
                 "var_type"				"FIELD_INTEGER"
-                "aura_negative_armor"	"-15"
+                "aura_negative_armor"	"-12"
             }
         }
 
