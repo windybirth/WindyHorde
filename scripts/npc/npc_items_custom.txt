@@ -4698,7 +4698,13 @@
 
         // Item Info
         //-------------------------------------------------------------------------------------------------------------
-        "ItemCost"						"750"
+        "ItemCost"						"900"
+        "ItemInitialCharges"			"1"
+    		"ItemDisplayCharges"			"1"
+        "ItemStockMax"					"5"
+    		"ItemStockInitial"				"0"
+    		"ItemStockTime"					"60.0"
+    		"ItemInitialStockTime"			"300.0"
         "ItemShopTags"					"unique"
         "ItemQuality"					"epic"
         "ItemAliases"					"upgrade"
