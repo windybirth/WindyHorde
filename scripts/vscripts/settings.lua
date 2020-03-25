@@ -49,7 +49,7 @@ USE_CUSTOM_XP_VALUES = true             -- Should we use custom XP values to lev
 XP_PER_LEVEL_TABLE = {
     0,-- 1
     230,-- 2
-    600,-- 3
+    530,-- 3
     1080,-- 4
     1680,-- 5
     2300,-- 6
