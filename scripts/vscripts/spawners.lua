@@ -174,7 +174,7 @@ function Spawners:LoadMisc(difficulty, mapInfo)
 
 	Spawner:SpawnTimer({
 		start = 0,
-		interval = 3000,
+		interval = 600,
 		spawn = {
 			source =  "spawner10",
 			waypoint = "spawner10",
